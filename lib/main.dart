@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           padding: const EdgeInsets.only(left: 14),
                           child: ActionCard(this.actions[index]["title"]),
                         );
-                      } else if (index == actions.length) {
+                      } else if (index == actions.length - 1) {
                         card = Padding(
                           padding: const EdgeInsets.only(right: 14),
                           child: ActionCard(this.actions[index]["title"]),
