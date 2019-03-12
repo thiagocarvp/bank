@@ -107,7 +107,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 aspectRatio: 1,
                 child: Swiper(
                   itemBuilder: (BuildContext context, int index) {
-                    return ProductCard(this.products[index]["amount"]);
+                    return ProductCard(
+                      this.products[index]["title"],
+                      this.products[index]["amount"],
+                    );
                   },
                   itemCount: products.length,
                   loop: false,
