@@ -40,7 +40,7 @@ class ProductCard extends StatelessWidget {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            "R\$ " + amount,
+                            amount,
                             style: TextStyle(
                               fontSize: 32,
                             ),

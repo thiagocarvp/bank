@@ -52,11 +52,15 @@ class _MyHomePageState extends State<MyHomePage> {
   final products = [
     {
       "title": "Conta",
-      "amount": "500,00",
+      "amount": "R\$ 18.500,00",
     },
     {
       "title": "Crédito",
-      "amount": "0,00",
+      "amount": "R\$ 42,00",
+    },
+    {
+      "title": "Rewards",
+      "amount": "120 pontos",
     }
   ];
 
